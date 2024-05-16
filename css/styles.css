@@ -1,31 +1,37 @@
-#wrapper{
-	
+#wrapper {
 	width: 500px;
 	margin: 0px auto;
 	padding: 10px;
-	
 	text-align: justify;
 }
-#wrapper > div{
+
+#wrapper > div {
 	margin-bottom: 15px;
 }
-#wrapper p{
+
+#wrapper p {
 	margin-bottom: 5px;
 }
 
-.date{
+.date {
 	font-weight: bold;
 }
-.name{
+
+.name {
 	font-size: 12pt;
+	margin-left: 20px;
+	font-weight: bold;
 }
 
+.text {
+	border-bottom: 1px solid #999;
+	padding-bottom: 10px;
+}
 
-textarea.form-control{
+textarea.form-control {
 	width: 100%;
 	padding: 5px 10px;
-	min-height: 200px;
+	min-height: 150px;
 	resize: vertical;
 	text-align: justify;
-	
 }
